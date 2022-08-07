@@ -1,0 +1,22 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #33A8E4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #020120;
+  box-shadow: -8px 8px 8px -8px #020120;
+}

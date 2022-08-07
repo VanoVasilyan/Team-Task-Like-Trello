@@ -1,0 +1,36 @@
+.board {
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.addList {
+  width: 272px;
+  margin: 10px;
+  flex-shrink: 0;
+}
+
+.addListButton {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 5px 8px;
+  transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  height: fit-content;
+}
+
+.addListButton:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.addListButton ion-icon {
+  margin-right: 1px;
+}

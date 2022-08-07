@@ -1,0 +1,67 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info>img {
+    width: 80px;
+    object-fit: contain;
+}
+
+.info>span {
+    margin-right: 20px;
+    color: aqua;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #020120;
+}
+
+.content>h3 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+.content>input:focus {
+    border: 1px solid aqua;
+}
+
+.content>button {
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #ddd;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content>button:focus {
+    border: 1px solid aqua;
+}
+
+.content>button:hover {
+    border: 1px solid #ddd;
+    color: aqua;
+}
+
+.content>p {
+    color: rgb(146, 146, 146);
+}
+
+.content>p>span {
+    color: #ddd;
+    cursor: pointer;
+}
+
+.content>p>span:hover {
+    color: aqua;
+    text-decoration: underline;
+}

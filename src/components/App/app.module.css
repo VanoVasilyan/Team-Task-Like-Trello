@@ -1,0 +1,60 @@
+.form {
+  background-color: #020120;
+  color: #ddd;
+  max-width: 300px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin: 15% auto;
+}
+
+.form input {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgb(65, 65, 65);
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.form input:focus {
+  border: 1px solid aqua;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #ddd;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:focus {
+  border: 1px solid aqua;
+}
+
+.form button:hover {
+  border: 1px solid #ddd;
+  color: aqua;
+}
+
+.form p {
+  color: rgb(146, 146, 146);
+}
+
+.form p span {
+  color: #ddd;
+  cursor: pointer;
+}
+
+.form p span:hover {
+  color: aqua;
+  text-decoration: underline;
+}
